@@ -1,0 +1,254 @@
+(footprint "MB1S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOIC4-MB10S")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ab801e97-9875-4d8c-8813-f988fd0c5490")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MB1S"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8d843505-5a85-4b69-b355-7e1efc239da3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6f9d8a6-a958-4fc2-a421-ff34f731110d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dc59cd9-8ae6-4232-9738-d2307652b3a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed8add58-8451-4ba3-99a1-702e274b3f33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.875 -2.05)
+		(end -1.95 -2.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9244d018-77a8-42d5-9162-e8d016c40550")
+	)
+	(fp_line
+		(start -1.6 -2.362)
+		(end 1.6 -2.362)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d344745-f52d-4e43-988f-8e3fe5cdd7e8")
+	)
+	(fp_line
+		(start -1.6 2.362)
+		(end -1.6 -2.362)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c12d5788-fc93-4c1c-b215-2a736b8eee36")
+	)
+	(fp_line
+		(start 1.6 -2.362)
+		(end 1.6 2.362)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed431cc0-0113-4f47-9b6b-942e0b0b9641")
+	)
+	(fp_line
+		(start 1.6 2.362)
+		(end -1.6 2.362)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "545c7cae-cf57-4ba4-93b5-e62fd9205fe5")
+	)
+	(fp_line
+		(start -4.125 -2.725)
+		(end 4.125 -2.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfa37d94-1bea-49f7-b1ba-57d1cbd070bc")
+	)
+	(fp_line
+		(start -4.125 2.725)
+		(end -4.125 -2.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "81177cc3-8a22-4163-a8b1-707837a070c9")
+	)
+	(fp_line
+		(start 4.125 -2.725)
+		(end 4.125 2.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "890196f4-7128-4c6a-90f2-daee9e39fa02")
+	)
+	(fp_line
+		(start 4.125 2.725)
+		(end -4.125 2.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce2be70d-5810-4a30-8bfc-0e310af3c26f")
+	)
+	(fp_line
+		(start -1.95 -2.362)
+		(end 1.95 -2.362)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b3330cb-9ff0-4a35-87e6-76ab8f6a901b")
+	)
+	(fp_line
+		(start -1.95 0.088)
+		(end 0.5 -2.362)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4e6636d-2a3f-4807-8444-574e406e1d0a")
+	)
+	(fp_line
+		(start -1.95 2.362)
+		(end -1.95 -2.362)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e75cd3bc-3038-48d9-8f09-e47b9e3e83be")
+	)
+	(fp_line
+		(start 1.95 -2.362)
+		(end 1.95 2.362)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c85c96a9-b2ad-4421-9f52-21dee4eb8ff3")
+	)
+	(fp_line
+		(start 1.95 2.362)
+		(end -1.95 2.362)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73013327-ef99-4e40-af81-c6ad32fa9b3e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4c3a3259-ac47-470f-aa78-57e835692f8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.912 -1.225 90)
+		(size 0.95 1.925)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d8841ed6-1a06-4b6d-9af7-c5b11dd06124")
+	)
+	(pad "2" smd rect
+		(at -2.912 1.225 90)
+		(size 0.95 1.925)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b3fcc6e9-3306-446b-83ee-ee4e682c7e1d")
+	)
+	(pad "3" smd rect
+		(at 2.912 1.225 90)
+		(size 0.95 1.925)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e0a853b4-9fbf-43a8-9897-260b7ff70bcd")
+	)
+	(pad "4" smd rect
+		(at 2.912 -1.225 90)
+		(size 0.95 1.925)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "21c5dc79-54b3-4672-ab4d-26595792570a")
+	)
+	(model "C:/Users/AsharLatif/Documents/github-files/rhinocerose/kicad-footprints/3d-models/rhinocerose-diodes/MB1S.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,213 @@
+(footprint "ESDA25P351U1M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1610_2023")
+	(tags "TVS Diode (Uni-directional)")
+	(property "Reference" "D**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "cad7d273-e033-4cb3-8fcd-d2116784f9e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ESDA25P351U1M"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "73bb01ff-b9c1-46a6-bf90-6a62d741ce5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e88343f1-f22f-4f48-95a3-d79b00d0d2ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb0c44de-6e82-4360-a45c-5204d19ba0d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.3 0)
+		(end 1.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a83e3ecf-0aa0-494a-8065-3b2331770eee")
+	)
+	(fp_line
+		(start 1.4 0)
+		(end 1.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8d3c20b-d5a1-456c-87c8-4c17e7e1eec3")
+	)
+	(fp_arc
+		(start 1.3 0)
+		(mid 1.35 -0.05)
+		(end 1.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b87bd76-7692-4e33-a66a-93399afadb69")
+	)
+	(fp_arc
+		(start 1.4 0)
+		(mid 1.35 0.05)
+		(end 1.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40a9195e-75b1-4f88-891a-015105c3c4c4")
+	)
+	(fp_line
+		(start -1.9 -1.5)
+		(end -1.9 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3de9ac0-720c-4a26-81e4-7e0f9d879c6f")
+	)
+	(fp_line
+		(start -1.9 1.5)
+		(end 1.9 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f1f5ed2-642b-40f0-85c0-5a0b561267ce")
+	)
+	(fp_line
+		(start 1.9 -1.5)
+		(end -1.9 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6623e7fa-3d03-438a-82db-f1ba198af7f2")
+	)
+	(fp_line
+		(start 1.9 1.5)
+		(end 1.9 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "943b5be3-2c78-45f9-a142-020cab691e89")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end 0.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3eab035d-baab-4673-ab2f-1cd322960a17")
+	)
+	(fp_line
+		(start -0.8 0.5)
+		(end -0.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13d8b614-b119-494d-9434-92679a08d8cf")
+	)
+	(fp_line
+		(start 0.8 -0.5)
+		(end 0.8 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ae3f2e0-55db-47cc-b33a-efb87f97cb0e")
+	)
+	(fp_line
+		(start 0.8 0.5)
+		(end -0.8 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52785bfe-5a0c-44d2-bfea-0d3ccd9a4f56")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4bfaa0b8-eb37-426e-ae9e-b78dbf68cc5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.625 0)
+		(size 0.55 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2bb7811c-2ab3-4832-a576-a731b7e49128")
+	)
+	(pad "2" smd rect
+		(at -0.625 0)
+		(size 0.55 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eeed48e7-4bca-4d03-b286-774b370d3340")
+	)
+	(embedded_fonts no)
+	(model "${RHINO_3D_DIR}/rhinocerose-diodes/ESDA25P35-1U1M.stp"
+		(offset
+			(xyz 0 0 0.55)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

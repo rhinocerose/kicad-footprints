@@ -1,0 +1,249 @@
+(footprint "SSM6J507NULF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SSM6J507NU,LF-2")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "96eb7362-56ae-468f-8308-5770e8977aa5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SSM6J507NULF"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a0869689-971a-4f5a-bf63-24c7ee1d51ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de19b53b-9536-43d2-828d-668b2dac9e71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c6d5a4b-02c6-4a6b-a577-7d35f2e681ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.65 1.6)
+		(end -0.65 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c74af0a-604f-4a29-b1f7-6c545b942d8b")
+	)
+	(fp_line
+		(start -0.65 1.7)
+		(end -0.65 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2fa0b4a3-cf0c-44b8-915f-03418888c2c1")
+	)
+	(fp_arc
+		(start -0.65 1.6)
+		(mid -0.6 1.65)
+		(end -0.65 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07c88a1e-3c4a-43af-9018-e210cbad6dcb")
+	)
+	(fp_arc
+		(start -0.65 1.7)
+		(mid -0.7 1.65)
+		(end -0.65 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f24f6bd0-3da0-49d2-8e7e-28dc2b780faf")
+	)
+	(fp_line
+		(start -2 -2.15)
+		(end 2 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41dd71d4-8e7a-4762-a2ca-514623f76e27")
+	)
+	(fp_line
+		(start -2 2.15)
+		(end -2 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca94d773-ec76-47e3-8486-6e25aa0da6b2")
+	)
+	(fp_line
+		(start 2 -2.15)
+		(end 2 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a224ef5-38b8-4dfd-8cc0-8e82534322c0")
+	)
+	(fp_line
+		(start 2 2.15)
+		(end -2 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2bef4933-aadf-40db-931f-49caf407b414")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9332ad62-a7bd-4087-b811-ad58acbd37b3")
+	)
+	(fp_line
+		(start -1 1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9602c834-4582-4c52-a954-d9f5cf6aa028")
+	)
+	(fp_line
+		(start 1 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e31eca18-1c69-441f-a262-79c7b56c0409")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2a2531e-b6c5-4c90-8752-9de76f273071")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fede6bb2-a769-4100-b5aa-9d1b4d1c03e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 0.938)
+		(size 0.4 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5005c59b-e0ad-43a1-8441-be3597fb28b7")
+	)
+	(pad "2" smd rect
+		(at 0 0.938)
+		(size 0.4 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bcbcb2e4-eb82-4520-aafe-eedff7e6968b")
+	)
+	(pad "3" smd rect
+		(at 0.65 0.938)
+		(size 0.4 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "acef5ee9-90d5-4d01-af2a-26dfc7fac415")
+	)
+	(pad "4" smd rect
+		(at 0.65 -0.938)
+		(size 0.4 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "411bb8f7-e4c3-43cb-8554-1a7037c36f5a")
+	)
+	(pad "5" smd rect
+		(at 0 -0.938)
+		(size 0.4 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e1949508-4cea-47a1-9e96-2b86005b9d0c")
+	)
+	(pad "6" smd rect
+		(at -0.65 -0.938)
+		(size 0.4 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eca5d7a0-01b2-4f90-881e-2a74d8340664")
+	)
+	(pad "7" smd rect
+		(at -0.325 0)
+		(size 0.95 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ebcc08c-0114-4d3a-b636-8de476bd8259")
+	)
+	(pad "8" smd rect
+		(at 0.65 0)
+		(size 0.3 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "16084553-51e0-4ccb-ac72-dfe40eff4bb3")
+	)
+	(embedded_fonts no)
+	(model "${RHINO_3D_DIR}/rhinocerose-transistors/SSM6J507NU,LF.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

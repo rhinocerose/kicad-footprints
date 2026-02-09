@@ -1,0 +1,258 @@
+(footprint "Recom-REC20K"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "REC20K")
+	(tags "Power Supply")
+	(property "Reference" "PS**"
+		(at 10.16 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "abc62317-3408-459b-b85a-ce892d113790")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Recom-REC20K"
+		(at 10.16 -2.54 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eb07d143-6983-4e62-8e29-96cd47d6fa17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26332429-4182-4380-b523-378d83b9ae54")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c756105e-4c7a-41c5-af46-d48e6e71cac8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "097fe0f2-0c97-49d7-a764-cdaf3d6d5c2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -15.24)
+		(end 22.86 -15.24)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60490f58-ff57-4a5b-8b04-ff267c379f97")
+	)
+	(fp_line
+		(start -2.54 10.16)
+		(end -2.54 -15.24)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07c6aef9-158c-4521-a034-9a0766a3a1d5")
+	)
+	(fp_line
+		(start 22.86 -15.24)
+		(end 22.86 10.16)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0b928a5-221c-4c1f-9631-c2c0594632e9")
+	)
+	(fp_line
+		(start 22.86 10.16)
+		(end -2.54 10.16)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b92f612d-d4c8-412e-9a8b-a26d43e76385")
+	)
+	(fp_line
+		(start -3.54 -16.24)
+		(end 23.86 -16.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "654c0279-5f55-40a0-8ce7-63111f5303eb")
+	)
+	(fp_line
+		(start -3.54 11.16)
+		(end -3.54 -16.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b0558df-9a6a-44ef-bf06-d7f768bfe0c8")
+	)
+	(fp_line
+		(start 23.86 -16.24)
+		(end 23.86 11.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7df61db-e319-494d-9503-29e7a3b49b86")
+	)
+	(fp_line
+		(start 23.86 11.16)
+		(end -3.54 11.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e55d62a4-c047-4c6c-8bcd-a757922a96d5")
+	)
+	(fp_line
+		(start -2.54 -15.24)
+		(end 22.86 -15.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5bbdfda8-47e2-471e-9fc6-f9c63fbfe82b")
+	)
+	(fp_line
+		(start -2.54 10.16)
+		(end -2.54 -15.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "beb248d7-b5f1-4137-bc90-15f7add811ad")
+	)
+	(fp_line
+		(start 22.86 -15.24)
+		(end 22.86 10.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f640fc4-acfd-4fc5-bdf2-9ca827355b81")
+	)
+	(fp_line
+		(start 22.86 10.16)
+		(end -2.54 10.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea061359-f8cc-4dee-92e4-543e7680f0f5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.16 -2.54 0)
+		(layer "F.Fab")
+		(uuid "b0ecb495-fe0e-4dd9-a124-61c4f1cc0bc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "470f007c-5f86-44d3-ac91-517629dce6e8")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -5.08)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5cf4d993-2155-42b5-a7f6-6635311ebb0c")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -12.7)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b1940c0b-bd3c-49bc-b432-756ba790dad6")
+	)
+	(pad "4" thru_hole circle
+		(at 20.32 -12.7)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "437d4ca2-5083-4270-a286-b0f29990ef36")
+	)
+	(pad "5" thru_hole circle
+		(at 20.32 -2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60d6e725-3f9c-4748-b36e-8edb686659fd")
+	)
+	(pad "6" thru_hole circle
+		(at 20.32 7.62)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4445aa5e-e5e4-4fd3-9f25-68b398395698")
+	)
+	(model "C:/Users/AsharLatif/Documents/github-files/rhinocerose/kicad-footprints/3d-models/rhinocerose-power/REC20K-2412DZ.stp"
+		(offset
+			(xyz 10.25 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

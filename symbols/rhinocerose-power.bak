@@ -24,7 +24,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "REC20K"
+		(property "Footprint" "rhinocerose-power:Recom-REC20K"
 			(at 26.67 -94.92 0)
 			(effects
 				(font

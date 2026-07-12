@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ESDA25P351U1M"
+		(property "Footprint" "rhinocerose-diodes:ESDA25P351U1M"
 			(at 10.16 -93.65 0)
 			(effects
 				(font
